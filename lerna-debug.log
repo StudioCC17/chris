@@ -1,0 +1,1138 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   parallel: true,
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '/Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/node_modules/.bin/lerna',
+0 silly argv   script: 'start'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website
+3 info Executing command in 2 packages: "npm run start"
+4 silly npmRunScript.stream [ 'start', [], 'example-company-website-gatsby-sanity-combo-studio' ]
+5 silly getExecOpts /Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/studio undefined
+6 silly npmRunScript.stream [ 'start', [], 'example-company-website-gatsby-sanity-combo-frontend' ]
+7 silly getExecOpts /Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/web undefined
+8 error Error: Command failed: npm run start
+8 error Assertion failed: (0), function uv_close, file ../deps/uv/src/unix/core.c, line 174.
+8 error
+8 error
+8 error > example-company-website-gatsby-sanity-combo-frontend@1.0.0 start /Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/web
+8 error > npm run develop
+8 error
+8 error
+8 error > example-company-website-gatsby-sanity-combo-frontend@1.0.0 develop /Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/web
+8 error > gatsby develop
+8 error
+8 error success open and validate gatsby-configs - 0.017s
+8 error warn Plugin gatsby-plugin-manifest is not compatible with your gatsby version 2.18.7 - It requires
+8 error
+8 error  ERROR #11329
+8 error
+8 error Your plugins must export known APIs from their gatsby-node.js.
+8 error
+8 error See https://www.gatsbyjs.org/docs/node-apis/ for the list of Gatsby node APIs.
+8 error
+8 error - The plugin gatsby-plugin-manifest@2.7.0 is using the API "pluginOptionsSchema" which was introduced in gatsby@2.25.0.
+8 error
+8 error Some of the following may help fix the error(s):
+8 error
+8 error - npm install gatsby@^2.25.0
+8 error
+8 error success load plugins - 0.865s
+8 error success onPreInit - 0.009s
+8 error success initialize cache - 0.008s
+8 error success copy gatsby files - 0.098s
+8 error warn [sanity] `overlayDrafts` is set to `true`, but no token is given
+8 error info [sanity] Fetching remote GraphQL schema
+8 error info [sanity] Transforming to Gatsby-compatible GraphQL SDL
+8 error warn [sanity] Type `SanityAssetSourceData` has field with name `id`, which conflicts with Gatsby's
+8 error info [sanity] Stitching GraphQL schemas from SDL
+8 error success onPreBootstrap - 0.292s
+8 error success createSchemaCustomization - 0.001s
+8 error info [sanity] Fetching export stream for dataset
+8 error info [sanity] Watch mode enabled, starting a listener
+8 error info [sanity] Done exporting!
+8 error success source and transform nodes - 0.408s
+8 error success building schema - 0.601s
+8 error info Creating project page: /project/sample-1/
+8 error info Creating painting page: /painting/a-forest-in-finland/
+8 error info Creating painting page: /painting/nordic-girl/
+8 error info Creating painting page: /painting/shell-of-a-georgian-house/
+8 error info Creating painting page: /painting/lake-through-the-trees-in-sweden/
+8 error info Creating painting page: /painting/meteor-landing/
+8 error info Creating painting page: /painting/cottage-at-dungeness/
+8 error info Creating painting page: /painting/fir-trees-at-dusk/
+8 error info Creating painting page: /painting/black-house-in-a-field/
+8 error info Creating painting page: /painting/man-with-a-jacket/
+8 error info Creating painting page: /painting/vikings-mount/
+8 error info Creating painting page: /painting/shooting-star-over-a-forest/
+8 error info Creating painting page: /painting/wolf/
+8 error info Creating painting page: /painting/lake-windermere/
+8 error info Creating painting page: /painting/girl-with-long-red-hair/
+8 error info Creating painting page: /painting/georgian-house-in-a-wheatfield/
+8 error info Creating painting page: /painting/eclipse-over-the-sea/
+8 error info Creating painting page: /painting/portrait-of-a-crow/
+8 error info Creating painting page: /painting/icelandic-landscape/
+8 error info Creating painting page: /painting/birch-trees-at-night/
+8 error info Creating painting page: /painting/dark-lake-and-forest/
+8 error info Creating painting page: /painting/st-peters-chapel/
+8 error info Creating painting page: /painting/moonlit-hare/
+8 error info Creating painting page: /painting/portrait-of-a-man/
+8 error info Creating painting page: /painting/st-davids-cathedral/
+8 error info Creating photograph page: /photograph/orfordness-suffolk/
+8 error info Creating photograph page: /photograph/leigh-on-sea/
+8 error info Creating photograph page: /photograph/bigbury-on-sea-devon/
+8 error info Creating photograph page: /photograph/west-craigs-scotland/
+8 error info Creating photograph page: /photograph/wallasea-island-essex/
+8 error info Creating photograph page: /photograph/tilbury-fort/
+8 error info Creating photograph page: /photograph/rhayader-elan-valley/
+8 error info Creating photograph page: /photograph/thatched-cottage-marlborough-wiltshire/
+8 error info Creating photograph page: /photograph/a-house-in-st-fagins-cardiff/
+8 error info Creating photograph page: /photograph/wallasea-island/
+8 error info Creating photograph page: /photograph/llanigon-capel-y-ffin/
+8 error info Creating photograph page: /photograph/westcliff-beach-essex/
+8 error info Creating photograph page: /photograph/houses-by-walton-on-the-naze/
+8 error info Creating photograph page: /photograph/little-moreton-hall-cheshire/
+8 error info Creating photograph page: /photograph/brockhampton-estate-herefordshire/
+8 error info Creating photograph page: /photograph/house-in-west-mersea/
+8 error info Creating photograph page: /photograph/heybridge-basin-essex/
+8 error info Creating notebook page: /notebook/notebook-4/
+8 error info Creating notebook page: /notebook/notebook-3/
+8 error info Creating notebook page: /notebook/notebook-15/
+8 error info Creating notebook page: /notebook/notebook-6/
+8 error info Creating notebook page: /notebook/notebook-5/
+8 error info Creating notebook page: /notebook/notebook-14/
+8 error info Creating notebook page: /notebook/notebook-12/
+8 error info Creating notebook page: /notebook/notebook-10/
+8 error info Creating notebook page: /notebook/notebook-16/
+8 error info Creating notebook page: /notebook/notebook-1/
+8 error info Creating notebook page: /notebook/notebook-7/
+8 error info Creating notebook page: /notebook/notebook-8/
+8 error info Creating commission page: /commission/portrait-of-edward-bush/
+8 error info Creating commission page: /commission/portrait-of-tom-prater/
+8 error info Creating commission page: /commission/the-white-cottage-east-sussex/
+8 error info Creating commission page: /commission/portrait-of-kate/
+8 error info Creating commission page: /commission/portrait-of-pippa/
+8 error info Creating commission page: /commission/house-in-east-sussex/
+8 error info Creating commission page: /commission/puppy/
+8 error info Creating commission page: /commission/a-house-in-north-london/
+8 error info Creating commission page: /commission/portrait-of-jaz-teoh/
+8 error info Creating commission page: /commission/enever-house-cotswolds/
+8 error info Creating commission page: /commission/whippet-18-x-25cm/
+8 error info Creating commission page: /commission/a-house-in-brittany/
+8 error info Creating commission page: /commission/portrait-of-jean-louis-roblin/
+8 error info Creating commission page: /commission/portrait-of-luna/
+8 error info Creating commission page: /commission/portrait-of-damien-sanville/
+8 error info Creating book page: /book/into-the-night-paintings-by-christopher-gee/
+8 error success createPages - 0.563s
+8 error success createPagesStatefully - 0.127s
+8 error success onPreExtractQueries - 0.003s
+8 error success update schema - 0.041s
+8 error success extract queries from components - 0.497s
+8 error warn The GraphQL query in the non-page component "/Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro
+8 error Exported queries are only executed for Page components. It's possible you're
+8 error trying to create pages in your gatsby-node.js and that's failing for some
+8 error reason.
+8 error
+8 error If the failing component(s) is a regular component and not intended to be a page
+8 error component, you generally want to use a <StaticQuery> (https://gatsbyjs.org/docs/static-query)
+8 error instead of exporting a page query.
+8 error
+8 error If you're more experienced with GraphQL, you can also export GraphQL
+8 error fragments from components and compose the fragments in the Page component
+8 error query and pass data down into the child component — http://graphql.org/learn/queries/#fragments
+8 error success write out requires - 0.031s
+8 error success write out redirect data - 0.007s
+8 error success Build manifest and related icons - 0.128s
+8 error success onPostBootstrap - 0.154s
+8 error ⠀
+8 error info bootstrap finished - 7.660 s
+8 error ⠀
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess run queries - 0.356s - 90/90 252.88/s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gwarn Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gwarn Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[GYou can now view example-company-website-gatsby-sanity-combo-frontend in the browser.
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G  http://localhost:8000/
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[GView GraphiQL, an in-browser IDE, to explore your site's data and schema
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G  http://localhost:8000/___graphql
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[GNote that the development build is not optimized.
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[GTo create a production build, use gatsby build
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G⠀
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Building development bundle - 6.014s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gwarn Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.896s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.101s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.250s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.602s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.382s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.510s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.420s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.511s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.391s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.218s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.105s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.405s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.105s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.277s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error  ERROR #98123  WEBPACK
+8 error
+8 error Generating development JavaScript bundle failed
+8 error
+8 error No PostCSS Config found in: /Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/node_modules/react-tiger-transition/styles
+8 error
+8 error File: ../node_modules/react-tiger-transition/styles/main.min.css
+8 error
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gfailed Re-building development bundle - 1.371s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error  ERROR #98123  WEBPACK
+8 error
+8 error Generating development JavaScript bundle failed
+8 error
+8 error No PostCSS Config found in: /Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/node_modules/react-tiger-transition/styles
+8 error
+8 error File: ../node_modules/react-tiger-transition/styles/main.min.css
+8 error
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gfailed Re-building development bundle - 0.167s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Failed                 example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.292s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.405s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.399s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Success                example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error  ERROR #98123  WEBPACK
+8 error
+8 error Generating development JavaScript bundle failed
+8 error
+8 error Can't resolve 'react-lazyload' in '/Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/web/src/components'
+8 error
+8 error File: src/components/painting-preview.js
+8 error
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gfailed Re-building development bundle - 0.394s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Failed                 example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error  ERROR #98123  WEBPACK
+8 error
+8 error Generating development JavaScript bundle failed
+8 error
+8 error Can't resolve 'react-lazyload' in '/Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/web/src/components'
+8 error
+8 error File: src/components/painting-preview.js
+8 error
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gfailed Re-building development bundle - 0.166s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Failed                 example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error  ERROR #98123  WEBPACK
+8 error
+8 error Generating development JavaScript bundle failed
+8 error
+8 error Can't resolve 'react-lazyload' in '/Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/web/src/components'
+8 error
+8 error File: src/components/painting-preview-grid.js
+8 error
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error  ERROR #98123  WEBPACK
+8 error
+8 error Generating development JavaScript bundle failed
+8 error
+8 error Can't resolve 'react-lazyload' in '/Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/web/src/components'
+8 error
+8 error File: src/components/painting-preview.js
+8 error
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gfailed Re-building development bundle - 0.445s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Failed                 example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error  ERROR #98123  WEBPACK
+8 error
+8 error Generating development JavaScript bundle failed
+8 error
+8 error Can't resolve 'react-lazyload' in '/Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/web/src/components'
+8 error
+8 error File: src/components/painting-preview.js
+8 error
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gfailed Re-building development bundle - 0.236s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Failed                 example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error  ERROR #98123  WEBPACK
+8 error
+8 error Generating development JavaScript bundle failed
+8 error
+8 error Can't resolve 'react-lazyload' in '/Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/web/src/components'
+8 error
+8 error File: src/components/painting-preview.js
+8 error
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error  ERROR #98123  WEBPACK
+8 error
+8 error Generating development JavaScript bundle failed
+8 error
+8 error Can't resolve 'react-lazyload' in '/Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/web/src/pages'
+8 error
+8 error File: src/pages/paintings.js
+8 error
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gfailed Re-building development bundle - 0.331s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Failed                 example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error  ERROR #98123  WEBPACK
+8 error
+8 error Generating development JavaScript bundle failed
+8 error
+8 error Can't resolve 'react-lazyload' in '/Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/web/src/components'
+8 error
+8 error File: src/components/painting-preview.js
+8 error
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gfailed Re-building development bundle - 0.314s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages                 Failed                 example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[Gsuccess Re-building development bundle - 0.305s
+8 error
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error [2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+8 error
+8 error 83 pages               In Progress              example-company-website-gatsby-s
+8 error anity-combo-frontend
+8 error
+8 error     at makeError (/Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/node_modules/execa/index.js:174:9)
+8 error     at /Users/CC17/Dropbox/My Mac (Edd’s MacBook Pro (2))/Desktop/christopher-gee-website/node_modules/execa/index.js:278:16

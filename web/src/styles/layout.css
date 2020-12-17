@@ -1,0 +1,657 @@
+@import './vars.css';
+@import url('https://use.typekit.net/sic5rjq.css');
+
+html {
+  font-family: var(--font-family-sans);
+  font-size: 1.75vw !important;
+  line-height: var(--font-base-line-height);
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1.prices {
+  position: absolute;
+  right: 40px;
+  bottom: 15px;
+  font-size: 1.75vw;
+  font-weight: normal;
+}
+
+h1.book-title {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  font-size: 1.75vw;
+  font-weight: normal;
+}
+
+.about-quote {
+  font-size: 1.75vw !important;
+  font-weight: normal !important;
+  width: 50%;
+
+  animation: fade 0.2s ease-in;
+}
+
+.about-blurb {
+  font-size: 1.25vw !important;
+  font-weight: normal !important;
+  width: 40%;
+  animation: fade 0.2s ease-in;
+}
+
+.splash-text {
+  -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+  animation: 2s ease 0s normal forwards 1 fadein;
+}
+
+.robert {
+  font-size: 1.25vw !important;
+  font-weight: normal !important;
+  width: 50%;
+  animation: fade 0.2s ease-in;
+}
+
+span.dimscross {
+  /* position: absolute; */
+  width: 10px;
+  display: inline-block;
+  margin: 0 0.25em;
+}
+
+.close {
+  position: fixed;
+  right: 20px;
+  color: black;
+}
+
+.close {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  opacity: 0.6;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before,
+.close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 1px;
+  background-color: #fff;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.cross {
+  color: grey;
+  position: absolute;
+}
+
+.cross {
+  width: 15px;
+  height: 15px;
+}
+
+.cross:before,
+.cross:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 10px;
+  width: 1px;
+  background-color: #fff;
+}
+.cross:before {
+  transform: rotate(45deg);
+}
+.cross:after {
+  transform: rotate(-45deg);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: var(--color-black);
+  color: var(--color-white);
+  margin: 0;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400 !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body,
+body > div,
+body > div > div {
+  height: 100%;
+}
+
+.navigation {
+  width: 40%;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about-quote {
+    font-size: 3.75vw !important;
+    width: 80%;
+  }
+
+  .about-blurb {
+    font-size: 3vw !important;
+    width: 80%;
+  }
+
+  .header-module--branding--3jgsl a {
+    font-size: 5vw !important;
+    margin-left: 10px;
+  }
+
+  .header-module--nav--3m-_Y ul li a {
+    font-size: 6.75vw;
+  }
+
+  .header-module--showNav--VEepo {
+    padding-top: 30px;
+
+    padding-left: 20px;
+  }
+
+  ::marker {
+    display: none !important;
+    color: black;
+  }
+
+  .header-module--nav--3m-_Y ul {
+    padding: 0;
+  }
+
+  .project-preview-module--leadMediaThumb--3xciV {
+    padding: 12.5%;
+  }
+
+  .project-module--mainImage--2ldOe img {
+    height: 85%;
+  }
+
+  .project-module--title--3DbyN {
+    font-size: 3.75vw;
+  }
+
+  h1.project-preview-module--title--3ZCc0.typography-module--responsiveTitle1--1tLTC {
+    font-size: 3.75vw;
+    line-height: 3vw;
+  }
+
+  h1.book-title {
+    font-size: 3.75vw;
+    left: 20px;
+  }
+
+  .book-module--title--2Hyi3 {
+    font-size: 3.75vw !important;
+    left: 20px;
+  }
+
+  .project-preview-module--title--3ZCc0 .close {
+    right: 17px;
+    top: 10px;
+  }
+
+  .header-module--toggleNavButton--1xvQP {
+    right: 4.5%;
+    top: 2.75%;
+  }
+
+  .project-module--mainImage--2ldOe img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+
+  .project-module--mainImage--2ldOe {
+    padding-top: 0px;
+  }
+
+  .container-module--root--1Rzp1 {
+    margin-bottom: -40px;
+    padding-top: 20px;
+  }
+
+  .close {
+    top: 10px;
+  }
+
+  .splash-text p {
+    font-size: 3.75vw !important;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about-quote {
+    font-size: 3.75vw !important;
+    width: 80%;
+  }
+
+  .about-blurb {
+    font-size: 3vw !important;
+    width: 80%;
+  }
+
+  .header-module--branding--3jgsl a {
+    font-size: 5vw !important;
+    margin-left: 10px;
+  }
+
+  .header-module--nav--3m-_Y ul li a {
+    font-size: 6.75vw;
+  }
+
+  .header-module--showNav--VEepo {
+    padding-top: 30px;
+
+    padding-left: 20px;
+  }
+
+  ::marker {
+    display: none !important;
+    color: black;
+  }
+
+  .header-module--nav--3m-_Y ul {
+    padding: 0;
+  }
+
+  .project-preview-module--leadMediaThumb--3xciV {
+    padding: 12.5%;
+  }
+
+  .project-module--mainImage--2ldOe img {
+    height: 85%;
+  }
+
+  .project-module--title--3DbyN {
+    font-size: 3.75vw;
+  }
+
+  h1.project-preview-module--title--3ZCc0.typography-module--responsiveTitle1--1tLTC {
+    font-size: 3.75vw;
+    line-height: 3vw;
+  }
+
+  h1.book-title {
+    font-size: 3.75vw;
+    left: 20px;
+  }
+
+  .book-module--title--2Hyi3 {
+    font-size: 3.75vw !important;
+    left: 20px;
+  }
+
+  .project-preview-module--title--3ZCc0 .close {
+    right: 17px;
+    top: 10px;
+  }
+
+  .header-module--toggleNavButton--1xvQP {
+    right: 4.5%;
+    top: 2.75%;
+  }
+
+  .project-module--mainImage--2ldOe img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+
+  .project-module--mainImage--2ldOe {
+    padding-top: 0px;
+  }
+
+  .container-module--root--1Rzp1 {
+    margin-bottom: -40px;
+    padding-top: 20px;
+  }
+
+  .close {
+    top: 10px;
+  }
+
+  .splash-text p {
+    font-size: 3.75vw !important;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about-quote {
+    font-size: 3.75vw !important;
+    width: 80%;
+  }
+
+  .about-blurb {
+    font-size: 3vw !important;
+    width: 80%;
+  }
+
+  .header-module--branding--3jgsl a {
+    font-size: 5vw !important;
+    margin-left: 10px;
+  }
+
+  .header-module--nav--3m-_Y ul li a {
+    font-size: 6.75vw;
+  }
+
+  .header-module--showNav--VEepo {
+    padding-top: 30px;
+
+    padding-left: 20px;
+  }
+
+  ::marker {
+    display: none !important;
+    color: black;
+  }
+
+  .header-module--nav--3m-_Y ul {
+    padding: 0;
+  }
+
+  .project-preview-module--leadMediaThumb--3xciV {
+    padding: 12.5%;
+  }
+
+  .project-module--mainImage--2ldOe img {
+    height: 85%;
+  }
+
+  .project-module--title--3DbyN {
+    font-size: 3.75vw;
+  }
+
+  h1.project-preview-module--title--3ZCc0.typography-module--responsiveTitle1--1tLTC {
+    font-size: 3.75vw;
+    line-height: 3vw;
+  }
+
+  h1.book-title {
+    font-size: 3.75vw;
+    left: 20px;
+  }
+
+  .book-module--title--2Hyi3 {
+    font-size: 3.75vw !important;
+    left: 20px;
+  }
+
+  .project-preview-module--title--3ZCc0 .close {
+    right: 17px;
+    top: 10px;
+  }
+
+  .header-module--toggleNavButton--1xvQP {
+    right: 4.5%;
+    top: 2.75%;
+  }
+
+  .project-module--mainImage--2ldOe img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+
+  .project-module--mainImage--2ldOe {
+    padding-top: 0px;
+  }
+
+  .container-module--root--1Rzp1 {
+    margin-bottom: -40px;
+    padding-top: 20px;
+  }
+
+  .close {
+    top: 10px;
+  }
+
+  .splash-text p {
+    font-size: 3.75vw !important;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .about-quote {
+    font-size: 3.75vw !important;
+    width: 80%;
+  }
+
+  .about-blurb {
+    font-size: 3vw !important;
+    width: 80%;
+  }
+
+  .header-module--branding--3jgsl a {
+    font-size: 5vw !important;
+    margin-left: 10px;
+  }
+
+  .header-module--nav--3m-_Y ul li a {
+    font-size: 6.75vw;
+  }
+
+  .header-module--showNav--VEepo {
+    padding-top: 30px;
+
+    padding-left: 20px;
+  }
+
+  ::marker {
+    display: none !important;
+    color: black;
+  }
+
+  .header-module--nav--3m-_Y ul {
+    padding: 0;
+  }
+
+  .project-preview-module--leadMediaThumb--3xciV {
+    padding: 12.5%;
+  }
+
+  .project-module--mainImage--2ldOe img {
+    height: 85%;
+  }
+
+  .project-module--title--3DbyN {
+    font-size: 3.75vw;
+  }
+
+  h1.project-preview-module--title--3ZCc0.typography-module--responsiveTitle1--1tLTC {
+    font-size: 3.75vw;
+    line-height: 3vw;
+  }
+
+  h1.book-title {
+    font-size: 3.75vw;
+    left: 20px;
+  }
+
+  .book-module--title--2Hyi3 {
+    font-size: 3.75vw !important;
+    left: 20px;
+  }
+
+  .project-preview-module--title--3ZCc0 .close {
+    right: 17px;
+    top: 10px;
+  }
+
+  .header-module--toggleNavButton--1xvQP {
+    right: 4.5%;
+    top: 2.75%;
+  }
+
+  .project-module--mainImage--2ldOe img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+
+  .project-module--mainImage--2ldOe {
+    padding-top: 0px;
+  }
+
+  .container-module--root--1Rzp1 {
+    margin-bottom: -40px;
+    padding-top: 20px;
+  }
+
+  .close {
+    top: 10px;
+  }
+
+  .splash-text p {
+    font-size: 3.75vw !important;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .about-quote {
+    font-size: 3.75vw !important;
+    width: 80%;
+  }
+
+  .about-blurb {
+    font-size: 3vw !important;
+    width: 80%;
+  }
+
+  .header-module--branding--3jgsl a {
+    font-size: 5vw !important;
+    margin-left: 10px;
+  }
+
+  .header-module--nav--3m-_Y ul li a {
+    font-size: 6.75vw;
+  }
+
+  .header-module--showNav--VEepo {
+    padding-top: 30px;
+
+    padding-left: 20px;
+  }
+
+  ::marker {
+    display: none !important;
+    color: black;
+  }
+
+  .header-module--nav--3m-_Y ul {
+    padding: 0;
+  }
+
+  .project-preview-module--leadMediaThumb--3xciV {
+    padding: 12.5%;
+  }
+
+  .project-module--mainImage--2ldOe img {
+    height: 85%;
+  }
+
+  .project-module--title--3DbyN {
+    font-size: 3.75vw;
+  }
+
+  h1.project-preview-module--title--3ZCc0.typography-module--responsiveTitle1--1tLTC {
+    font-size: 3.75vw;
+    line-height: 3vw;
+  }
+
+  h1.book-title {
+    font-size: 3.75vw;
+    left: 20px;
+  }
+
+  .book-module--title--2Hyi3 {
+    font-size: 3.75vw !important;
+    left: 20px;
+  }
+
+  .project-preview-module--title--3ZCc0 .close {
+    right: 17px;
+    top: 10px;
+  }
+
+  .header-module--toggleNavButton--1xvQP {
+    right: 4.5%;
+    top: 2.75%;
+  }
+
+  .project-module--mainImage--2ldOe img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+
+  .project-module--mainImage--2ldOe {
+    padding-top: 0px;
+  }
+
+  .container-module--root--1Rzp1 {
+    margin-bottom: -40px;
+    padding-top: 20px;
+  }
+
+  .close {
+    top: 10px;
+  }
+
+  .splash-text p {
+    font-size: 3.75vw !important;
+  }
+}

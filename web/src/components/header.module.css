@@ -1,0 +1,141 @@
+@import '../styles/media-queries.css';
+@import '../styles/vars.css';
+
+.root {
+  position: relative;
+  z-index: 100;
+}
+
+body {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 95%;
+  padding: 1em;
+  display: flex;
+
+  @media (--media-min-small) {
+    padding: 1.5em 1.5em;
+  }
+}
+
+.branding {
+  font-weight: normal;
+
+  flex: 1;
+  font-size: calc(20 / var(--base-unit) * 1rem);
+  -webkit-font-smoothing: antialiased;
+  font-style: italic;
+  position: fixed;
+  top: 5%;
+  left: 4%;
+  float: left;
+  margin: 0;
+  @nest & a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+
+    @media (hover: hover) {
+      @nest &:hover {
+        color: var(--color-accent);
+      }
+    }
+  }
+}
+
+.toggleNavButton {
+  appearance: none;
+  font-size: 38px;
+  border: none;
+  background: none;
+  margin: 0;
+  padding: calc(14 / 17 / 2 * 1rem);
+  outline: none;
+  color: inherit;
+  position: fixed;
+  right: 3%;
+  top: 4%;
+
+  & svg {
+    display: block;
+    fill: inherit;
+  }
+
+  @media (--media-min-small) {
+    display: none;
+  }
+}
+
+.nav {
+  display: none;
+  position: fixed;
+  float: right;
+  right: 4%;
+  top: 5%;
+
+  @nest & ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  @nest & ul li a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    color: grey;
+    padding-left: 1.25rem;
+    padding-bottom: 0.35rem;
+  }
+
+  @media (hover: hover) {
+    @nest & ul li a:hover {
+      color: white !important;
+    }
+  }
+
+  @media (--media-max-small) {
+    position: absolute;
+
+    background: var(--color-black);
+
+    color: var(--color-blackwhite);
+    box-shadow: none;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+
+    @nest & ul {
+      padding: 1rem 0;
+    }
+
+    @nest & ul li a {
+      padding: 0.5rem 1.5rem;
+    }
+  }
+
+  @media (--media-min-small) {
+    display: block;
+
+    @nest & ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    @nest & ul li a {
+    }
+  }
+}
+
+.showNav {
+  display: block;
+}
+
+[aria-current] {
+  color: white !important;
+}

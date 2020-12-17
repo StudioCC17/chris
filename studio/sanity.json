@@ -6,7 +6,7 @@
   },
   "project": {
     "name": "Christopher Gee",
-    "basePath": "/"
+    "basePath": "/studio"
   },
   "plugins": [
     "@sanity/base",

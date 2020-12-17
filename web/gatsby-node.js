@@ -223,9 +223,7 @@ async function createBookPages(graphql, actions, reporter) {
 }
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
-  await createBlogPostPages(graphql, actions, reporter)
   await createProjectPages(graphql, actions, reporter)
-
   await createPaintingPages(graphql, actions, reporter)
   await createPhotographPages(graphql, actions, reporter)
   await createNotebookPages(graphql, actions, reporter)

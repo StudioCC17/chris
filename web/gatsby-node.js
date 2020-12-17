@@ -6,42 +6,6 @@ const { format } = require('date-fns')
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-async function createProjectPages(graphql, actions, reporter) {
-  const { createPage } = actions
-  const result = await graphql(`
-    {
-      allSanityProject(filter: { slug: { current: { ne: null } } }) {
-        edges {
-          node {
-            id
-            slug {
-              current
-            }
-          }
-        }
-      }
-    }
-  `)
-
-  if (result.errors) throw result.errors
-
-  const projectEdges = (result.data.allSanityProject || {}).edges || []
-
-  projectEdges.forEach(edge => {
-    const id = edge.node.id
-    const slug = edge.node.slug.current
-    const path = `/project/${slug}/`
-
-    reporter.info(`Creating project page: ${path}`)
-
-    createPage({
-      path,
-      component: require.resolve('./src/templates/project.js'),
-      context: { id }
-    })
-  })
-}
-
 async function createPaintingPages(graphql, actions, reporter) {
   const { createPage } = actions
   const result = await graphql(`
@@ -223,7 +187,6 @@ async function createBookPages(graphql, actions, reporter) {
 }
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
-  await createProjectPages(graphql, actions, reporter)
   await createPaintingPages(graphql, actions, reporter)
   await createPhotographPages(graphql, actions, reporter)
   await createNotebookPages(graphql, actions, reporter)
